@@ -12,7 +12,7 @@ export function About() {
     <ThemeProvider theme={theme}>
     <Container>
     <Box sx={{ display: 'flex', mt: '10rem', justifyContent: 'center'}}>
-      <img src='./public/myPic.png' />
+      <img src='./workPic/myPic.png' />
     </Box>
     <Box sx={{ display: 'flex', mt: '2rem', justifyContent: 'center'}}>
       <Typography variant='h2'>About me</Typography>
