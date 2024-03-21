@@ -21,11 +21,11 @@ export function Home() {
         <Typography variant='h4'>Technology I use</Typography>
     </Box>
     <Box sx={{display: 'flex', justifyContent: 'center', gap: '2rem', marginTop: '2rem'}}>
-        <img className='small-img' src= './public/icon/fireBase.png' />
-        <img className='small-img' src= './public/icon/nodeJS.png' />
-        <img className='small-img' src= './public/icon/mui.png' />
-        <img className='small-img' src= './public/icon/react.png' />
-        <img className='small-img' src= './public/icon/typescript.png' />
+        <img className='small-img' src= './icon/fireBase.png' />
+        <img className='small-img' src= './icon/nodeJS.png' />
+        <img className='small-img' src= './icon/mui.png' />
+        <img className='small-img' src= './icon/react.png' />
+        <img className='small-img' src= './icon/typescript.png' />
     </Box>
     <Container>
         <Box sx={{display:'flex', flexDirection: {xs: 'column' , md: 'row'}, justifyContent:'space-around', alignItems: 'center', mt: '10rem', background:''}}>
@@ -37,10 +37,10 @@ export function Home() {
                     <Link href="https://anya-herb.vercel.app/">Anya Herb Website</Link>
                 </Typography>
             </Box>
-            <Box sx={{display: 'flex', order: {xs: 1, md: 2}}} component='img' src="./public/portfolio/anyaHerb.png" title="activities" width='640px' />
+            <Box sx={{display: 'flex', order: {xs: 1, md: 2}}} component='img' src="./portfolio/anyaHerb.png" title="activities" width='640px' />
         </Box>
         <Box sx={{ display: 'flex',flexDirection: {xs: 'column' , md: 'row'}, justifyContent:'space-around', alignItems: 'center', mt: '10rem'}}>
-            <Box sx={{display: 'flex'}} component='img' src="./public/portfolio/penbangalow.png" title="activities" width='640px' />
+            <Box sx={{display: 'flex'}} component='img' src="./portfolio/penbangalow.png" title="activities" width='640px' />
             <Box sx={{display: 'flex', flexDirection: 'column', maxWidth:'500px', order: {xs: 2, md: 1 } }}>
                 <Typography variant="h1" gutterBottom sx={{ mx: '2rem'}}>Penbangalow</Typography>
                 <Typography variant="subtitle1"  gutterBottom sx={{ mx: '2rem'}}>
@@ -55,7 +55,7 @@ export function Home() {
                 <Typography variant="h1" gutterBottom sx={{ mx: '2rem'}}>Eat</Typography>
                 <Typography variant="subtitle1"  gutterBottom sx={{ mx: '2rem'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe provident aspernatur ad dolor, commodi recusandae illum aliquam dolorem asperiores quas ratione aperiam ab reiciendis qui unde mollitia quos sint! Dolor?</Typography>
             </Box>
-            <Box sx={{display: 'flex', order: {xs: 1, md: 2}}} component='img' src="./public/portfolio/anyaHerb.png" title="activities" width='640px' />
+            <Box sx={{display: 'flex', order: {xs: 1, md: 2}}} component='img' src="./portfolio/anyaHerb.png" title="activities" width='640px' />
         </Box>
     </Container>
     </ThemeProvider>
