@@ -1,4 +1,3 @@
-import React from 'react'
 import { Box, Typography, createTheme, responsiveFontSizes, ThemeProvider } from '@mui/material'
 import CopyrightIcon from '@mui/icons-material/Copyright';
 

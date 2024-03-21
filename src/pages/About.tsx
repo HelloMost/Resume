@@ -1,4 +1,3 @@
-import React from 'react'
 import { Box, Typography, createTheme, responsiveFontSizes, ThemeProvider, Container } from '@mui/material'
 
 
