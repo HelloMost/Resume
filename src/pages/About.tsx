@@ -1,5 +1,6 @@
-import { Box, Typography, createTheme, responsiveFontSizes, ThemeProvider, Container } from '@mui/material'
-
+import { Box, Link, Typography, createTheme, responsiveFontSizes, ThemeProvider, Container } from '@mui/material'
+import GitHubIcon from '@mui/icons-material/GitHub';
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 
 let theme = createTheme();
@@ -38,6 +39,17 @@ export function About() {
         Html, Css, Javascript, Typescript, and React. Certainly that I keep improving 
         myself and I interest in new things. I am always ready to gather new knowledge as much as i can.
       </Typography>
+    </Box>
+    <Box sx={{ display: 'flex', mt: '2rem', justifyContent: 'center'}}>
+      <Typography variant='h2'>Connected with me</Typography>
+    </Box>
+    <Box sx={{ display: 'flex', mt: '2rem', justifyContent: 'center', gap: '2rem'}}>
+      <Link href="https://github.com/HelloMost" target="_blank" >
+        <GitHubIcon sx={{ width: '4rem', height: '4rem'}}/>
+      </Link>
+      <Link href="https://www.facebook.com/mostiere" target="_blank" >
+        <FacebookIcon sx={{ width: '4rem', height: '4rem'}}/>
+      </Link>
     </Box>
     </Container>
     </ThemeProvider>

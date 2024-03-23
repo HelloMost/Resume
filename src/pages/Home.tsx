@@ -50,13 +50,6 @@ export function Home() {
                 </Typography>
             </Box>
         </Box>
-        <Box sx={{display:'flex', flexDirection: {xs: 'column' , md: 'row'}, justifyContent:'space-around', alignItems: 'center', mt: '10rem', background:''}}>
-            <Box sx={{display: 'flex', flexDirection: 'column', maxWidth:'500px', order: {xs: 2, md: 1 } }}>
-                <Typography variant="h1" gutterBottom sx={{ mx: '2rem'}}>Eat</Typography>
-                <Typography variant="subtitle1"  gutterBottom sx={{ mx: '2rem'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe provident aspernatur ad dolor, commodi recusandae illum aliquam dolorem asperiores quas ratione aperiam ab reiciendis qui unde mollitia quos sint! Dolor?</Typography>
-            </Box>
-            <Box sx={{display: 'flex', order: {xs: 1, md: 2}}} component='img' src="./portfolio/anyaHerb.png" title="activities" width='640px' />
-        </Box>
     </Container>
     </ThemeProvider>
     </>
