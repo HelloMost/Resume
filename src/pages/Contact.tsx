@@ -1,5 +1,5 @@
 import { Box, Typography, createTheme, responsiveFontSizes, ThemeProvider } from '@mui/material'
-import './Contact.css'
+
 
 
 
