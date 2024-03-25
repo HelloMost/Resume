@@ -2,3 +2,21 @@
     width: 50px;
     height: 50px;
   }
+  .certificate-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certificate-box img {
+    width: 320px;
+}
+
+@media (min-width: 600px) {
+    .certificate-box img {
+        width: 640px;
+    .small-img {
+      width: 10px;
+    }
+    }
+}
