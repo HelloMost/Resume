@@ -32,7 +32,7 @@ export function Home() {
                 <Box className="certificate-box">
                     <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, justifyContent: 'space-around', alignItems: 'center', mt: '10rem', background: '' }}>
                         <Box sx={{ display: 'flex', flexDirection: 'column', maxWidth: '500px', order: { xs: 2, md: 1 } }}>
-                            <Typography variant="h1" gutterBottom sx={{ mx: '2rem' }}>Anya Herb</Typography>
+                            <Typography variant="h2" gutterBottom sx={{ mx: '2rem' }}>Anya Herb</Typography>
                             <Typography variant="subtitle1" gutterBottom sx={{ mx: '2rem' }}>
                                 A showcase supplement website by Html, Css, Javascript, to describe about the product benefits and contact to buy product with shop link and phone number.
                                 Ofcourse, there is a video to show about client which use take supplement.
@@ -44,7 +44,7 @@ export function Home() {
                     <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, justifyContent: 'space-around', alignItems: 'center', mt: '10rem' }}>
                             <Box sx={{ display: 'flex' }} component='img' src="./portfolio/penbangalow.png" width='640px' />
                         <Box sx={{ display: 'flex', flexDirection: 'column', maxWidth: '500px', order: { xs: 2, md: 1 } }}>
-                            <Typography variant="h1" gutterBottom sx={{ mx: '2rem' }}>Penbangalow</Typography>
+                            <Typography variant="h2" gutterBottom sx={{ mx: '2rem' }}>Penbangalow</Typography>
                             <Typography variant="subtitle1" gutterBottom sx={{ mx: '2rem' }}>
                                 Demo hotel website which use Html, Css, and Bootstrap library to show to room for client before make a decision
                                 and link to reservation website for customer who interest to reserve the room and this website show the accommodation
