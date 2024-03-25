@@ -1,4 +1,3 @@
-import './Banner.css'
 import { Container, Typography, Box, Button, createTheme, responsiveFontSizes, ThemeProvider } from '@mui/material'
 import { Link } from 'react-router-dom';
 
