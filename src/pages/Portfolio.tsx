@@ -47,7 +47,7 @@ export function Portfolio() {
       </Typography>
     </Box>
     <Box sx={{ display: 'flex', mt: '2rem', justifyContent: 'center'}}>
-      <Typography variant='h4'>Previouse job</Typography>
+      <Typography variant='h4'>Previous job</Typography>
     </Box>
     <Box sx={{ display: 'flex', justifyContent: 'center', mt: '2rem'}}>
       <Typography variant='subtitle1'>
