@@ -26,6 +26,7 @@ export function Home() {
         <img className='small-img' src= './icon/mui.png' />
         <img className='small-img' src= './icon/react.png' />
         <img className='small-img' src= './icon/typescript.png' />
+        <img className='small-img' src= './icon/vite.png' />
     </Box>
     <Container>
         <Box sx={{display:'flex', flexDirection: {xs: 'column' , md: 'row'}, justifyContent:'space-around', alignItems: 'center', mt: '10rem', background:''}}>
@@ -49,6 +50,13 @@ export function Home() {
                     which  hotel prepare.<Link href="https://penbungalow.vercel.app/">Penbangalow Website</Link>
                 </Typography>
             </Box>
+        </Box>
+        <Box sx={{ display: 'flex', justifyContent: 'center', mt: '5rem' }}>
+            <Typography variant='h1'>Certificate</Typography>
+        </Box>
+        <Box sx={{ display: 'flex', gap: '2rem', mt: '2rem', justifyContent: 'center' }}>
+            <Box sx={{display: 'flex'}} component='img' src="./workPic/frontEndCertifiacte.png" title="activities" width='640px' />
+            <Box sx={{display: 'flex'}} component='img' src="./workPic/certificate.png" title="activities" width='640px' />
         </Box>
     </Container>
     </ThemeProvider>
